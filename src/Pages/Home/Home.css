@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.playrify{
+    font-family: 'Playfair Display', serif;
+}
+.title{
+    font-weight: 600;
+}
+
+.bg-cover{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.54) 100%), url('../../../src/Assets/Images/health-center-cover.jpg');
+    min-height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
