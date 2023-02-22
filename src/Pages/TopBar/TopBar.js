@@ -10,7 +10,7 @@ import { NavLink, useLocation, Link } from 'react-router-dom';
 
 const TopBar = () => {
     return (
-       <div className='text-[#2E294E]'>
+       <div className='text-[#2E294E] '>
          <div className='roboto px-8 py-3 md:flex items-center justify-between'>
             <div className='md:flex gap-8'>
             <div className='flex gap-4 items-center text-lg font-medium'>

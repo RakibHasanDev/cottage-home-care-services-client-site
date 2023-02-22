@@ -24,7 +24,7 @@
 
 .bg-hov2:hover {
 
-    transform: translateY(-6px);
+    transform: translateY(-4px);
     z-index: 2;
 
 }

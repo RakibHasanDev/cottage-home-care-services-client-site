@@ -46,7 +46,7 @@ const NavBar = () => {
 
     return (
         <div className=" sticky top-0 z-50 roboto  " id='navBar'>
-            <div className="px-4 pt-8 pb-6 mx-auto w-[95%]">
+            <div className="px-4 pt-4 pb-6 mx-auto w-[95%]">
                 <div className="relative flex items-center justify-between">
                     <NavLink
                         to='/'
@@ -54,11 +54,18 @@ const NavBar = () => {
                         title="Learn With Programming"
                         className="inline-flex items-center"
                     >
-                        <img src={navLogo} className='w-[80px] h-[80px] shadow-2xl p-2 border-2 border-primary rounded-full' alt="" />
-                        <span className={` ml-4 text-lg md:text-3xl font-semibold tracking-wide text-[#49465D] transition-colors duration-200     ${navColor && 'customWhite'} white`}>
-                            Cottage Home Care Services <br className='' />
-                            
-                        </span>
+                      <div>
+                      <div className='flex  items-center '>
+                        <img src={navLogo} className='w-[90px] h-[90px] shadow-2xl p-2 border-2 border-primary rounded-full' alt="" />
+                        <p className={` ml-4 text-lg md:text-3xl font-semibold tracking-wide text-[#00A6B2] transition-colors duration-200 `}>
+                            Cottage Home Care Services     
+                        </p>
+                        </div> 
+                        <hr className='mt-1 border-[1px] border-[#a5a4ad]' />
+                        <p className='font-semibold text-base text-center text-[#49465D]'>We Care</p>
+                        
+                        </div>   
+                        
                     </NavLink>
 
                     <ul className="flex items-center hidden space-x-6 lg:flex">

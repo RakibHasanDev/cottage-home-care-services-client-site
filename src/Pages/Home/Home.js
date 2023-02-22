@@ -22,10 +22,10 @@ const Home = () => {
                 </h4>
 
                 <div className='flex justify-center text-white mt-10 font-semibold gap-8'>
-                    <button className=' px-8 py-4 rounded-full text-xl bg-primary uppercase'>
+                    <a href="tel:+1516-367-2266" className=' px-8 py-4 rounded-full text-xl bg-primary uppercase  bg-hov2'>
                         Contact Us
-                    </button>
-                    <button className=' px-8 py-4 rounded-full text-xl border-2 border-primary'>
+                    </a>
+                    <button className=' px-8 py-4 rounded-full text-xl border-2 border-primary bg-hov2'>
                         Apply as a Home Health Aide
                     </button>
 
